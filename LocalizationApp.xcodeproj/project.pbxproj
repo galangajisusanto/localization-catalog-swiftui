@@ -11,6 +11,7 @@
 		A500EBCB2C7AEE3E005875A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A500EBCA2C7AEE3E005875A7 /* ContentView.swift */; };
 		A500EBCD2C7AEE3F005875A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A500EBCC2C7AEE3F005875A7 /* Assets.xcassets */; };
 		A500EBD02C7AEE3F005875A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A500EBCF2C7AEE3F005875A7 /* Preview Assets.xcassets */; };
+		A500EBD72C7B2255005875A7 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = A500EBD62C7B2255005875A7 /* Localizable.xcstrings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		A500EBCA2C7AEE3E005875A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A500EBCC2C7AEE3F005875A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A500EBCF2C7AEE3F005875A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A500EBD62C7B2255005875A7 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				A500EBCA2C7AEE3E005875A7 /* ContentView.swift */,
 				A500EBCC2C7AEE3F005875A7 /* Assets.xcassets */,
 				A500EBCE2C7AEE3F005875A7 /* Preview Content */,
+				A500EBD62C7B2255005875A7 /* Localizable.xcstrings */,
 			);
 			path = LocalizationApp;
 			sourceTree = "<group>";
@@ -109,6 +112,7 @@
 			knownRegions = (
 				en,
 				Base,
+				id,
 			);
 			mainGroup = A500EBBC2C7AEE3E005875A7;
 			productRefGroup = A500EBC62C7AEE3E005875A7 /* Products */;
@@ -127,6 +131,7 @@
 			files = (
 				A500EBD02C7AEE3F005875A7 /* Preview Assets.xcassets in Resources */,
 				A500EBCD2C7AEE3F005875A7 /* Assets.xcassets in Resources */,
+				A500EBD72C7B2255005875A7 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
